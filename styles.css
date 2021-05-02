@@ -1,52 +1,28 @@
 body{
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(167, 221, 250) !important;
 }
-
+.cardWidth{
+    width: 400px;
+}
 h1 {
     font-size: 6rem;
     font-family: monospace;
 }
-
-code{
-    font-family: monospace;
+.grey{
+    background-color: silver;
 }
 
-.app{
-    background: azure;
-    padding: 30px;
-    height: 100vh;
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
 }
-
-.todo-list{
-    background: aliceblue;
-    border-radius: 4px;
-    padding: 5px;
-    max-width: 400px;
-
+.text-primary{
+    border: dotted 1px lightslategray;
 }
-
-.todo{
-    background: #fff;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-    padding: 3px 10px;
-    font-size: 24px;
-    margin-bottom: 6px;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.text-secondary{
+    border: dotted 1px lightslategray;
 }
-
-.input{
-    width: 100%;
-    box-sizing: border-box;
-    border:0;
-    border-radius: 4px;
-    box-shadow: none;
-    padding: 1rem;
-    height: 2.25em;
-    font-size: 24px;
+input.input{
+    border: none;
 }
