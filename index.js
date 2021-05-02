@@ -11,6 +11,14 @@ function App(){
             {
                 text: 'build todo app',
                 isCompleted: false
+            },
+            {
+                text: 'learn about crypto',
+                isCompleted: false
+            },
+            {
+                text: 'learn about blockchain',
+                isCompleted: false
             }
     ]);
     return(<>
