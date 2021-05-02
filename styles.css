@@ -1,8 +1,13 @@
 body{
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
-    -webkit-font-smoothing: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: monospace;
 }
 
 code{
