@@ -28,11 +28,7 @@ function App(){
     }
 
     const colorAl = index =>{
-        let classN = ''
-        if (index%2==0){
-             classN ='text-primary';
-        }else{ classN = 'text-secondary'}
-        return classN;
+        return ((index%2==0)?'text-primary':'text-secondary');
     }
 
     const removeTodo = index =>{
